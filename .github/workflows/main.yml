@@ -39,7 +39,7 @@ jobs:
     -
       run: rm -f composer.lock || true
     -
-      uses: "ramsey/composer-install@2.1.0"
+      uses: "ramsey/composer-install@v2"
       name: composer install
       with:
         dependency-versions: "highest"
